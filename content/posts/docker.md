@@ -7,7 +7,7 @@ tags:
   - docker
   - containers
   - intro
-draft: true
+draft: false
 ---
 
 I've recently had a handful of discussions with folks about what Docker is and how it works. The world **definitely** needs another "getting started with docker" guide, and I figured it was high time I write one up too.
@@ -199,7 +199,7 @@ And we see that we have a new container, still based on our `chocolatechip` cook
 
 ## Wrap Up
 
-And that's our whirlwind tour of ~~baking~~ docker! By now you should know what some of the more common 
+And that's our whirlwind tour of ~~baking~~ docker! 
 
 
 [^filesystem-namespace]: While I can't find any evidence that the term "filesystem namespace" is _wrong_, I also can't find any that it's _correct_. It doesn't require me to explain what a "mount" is though, so I'm sticking with it.
