@@ -1,0 +1,53 @@
+baseURL = "https://casualcs.dev/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+author = "Tyler Lubeck"
+title = "Casual Computer Science Explanations"
+theme = "fuji"
+paginate = 5
+enableRobotsTXT = true
+
+showLicense = false
+
+[outputFormats]
+    [outputFormats.SearchIndex]
+        isPlainText = true
+        notAlternative = true
+        mediaType = "application/json"
+        path = "/search/"
+[outputs]
+    home = ["HTML", "RSS", "SearchIndex"]
+
+[permalinks]
+    post = "/:year/:month/:section/:filename/"
+
+[params]
+    sourceUrl = "https://github.com/casualcsonline/casualcsonline.github.io"
+    showWordCounter = true
+    showReadTime = true
+    copyrightStartYear = "2021"
+    description = "Computer Science, Explained Casually"
+    mainSections = ["posts"]
+
+    utterancesRepo = "casualcsonline/casualcsonline.github.io"
+    utterancesIssueTerm = "og:title"
+
+[menu]
+    [[menu.nav]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.nav]]
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+    [[menu.nav]]
+        name = "RSS"
+        url = "/index.xml"
+        weight = 5
+
+[markup]
+    [markup.highlight]
+        codeFences = false
