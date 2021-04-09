@@ -18,6 +18,7 @@ I've recently had a handful of discussions with folks about what Docker is and h
 
 By the end of this article, you should have a decent grasp of how Docker images and containers work under the hood. We'll cover:
 
+- What a docker image is.
 - How a docker container works.
 - The relationship between a docker image and a docker container.
 - Why Docker might be helpful for you.
@@ -38,7 +39,7 @@ Image
 : An "Image" is a cookie cutter for a docker container. When you have an image, you can stamp out as many containers based on that image as you like.
 
 Container
-: A "Container" is an instance of your "Image". Following the "cookie cutter" comparison, this is a single cookie. It may look and act like all of the other cookies on your baking sheet, but it acts as its own independent morsel.
+: A "Container" is an instance of your "Image". Following the "cookie cutter" comparison, this is a single cookie. It may look and smell like all of the other cookies on your baking sheet, but it acts as its own independent morsel.
 
 Dockerfile
 : A set of instructions to create an "Image". Think of it like a cookie recipe.
